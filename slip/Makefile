@@ -2,10 +2,14 @@
 
 lib.name = slip
 
-class.sources = ../slipdec/slipdec.c ../slipenc/slipenc.c
+class.sources = slipdec.c slipenc.c
 
-datafiles = ../slipdec/slipdec-help.pd ../slipenc/slipenc-help.pd \
-            LICENSE.txt README.txt slip-meta.pd
+datafiles = \
+      slipdec-help.pd \
+      slipenc-help.pd \
+      slip-meta.pd \
+      LICENSE.txt \
+      README.txt
 
 # This Makefile is based on the Makefile from pd-lib-builder written by
 # Katja Vetter. You can get it from:
